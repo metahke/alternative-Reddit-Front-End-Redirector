@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Alternative Reddit Front-End Redirector",
+  "version": "0.1",
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "description": "Redirect Reddit to Libreddit instance",
+
+  "icons": {
+    "48": "icons/logo.svg"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+
