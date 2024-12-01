@@ -12,3 +12,9 @@ A simple Firefox browser extension that allows `www.reddit.com` to be automatica
 6. Make sure that the add-on has been activated correctly.
 
 That's it - from now on, URLs `www.reddit.com` will be automatically redirected to `libreddit.bus-hit.me`.
+
+## To Do
+
+- adding options in Firefox that allow you to add your own redirection entries, e.g. Twitter -> Nitter, Reddit -> Libreddit (own instance URL), YouTube etc,
+- security verification of the add-on code,
+- verification of edge case scenarios.
